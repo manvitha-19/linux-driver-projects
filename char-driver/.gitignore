@@ -1,0 +1,25 @@
+# Object and temporary files
+*.o
+*.ko
+*.mod.c
+*.mod.o
+*.mod
+*.cmd
+
+# Build system files
+*.order
+*.symvers
+Module.symvers
+modules.order
+.tmp_versions/
+
+# Backup files
+*~
+*.bak
+*.swp
+
+# Logs
+*.log
+
+# Test binaries
+test_app
