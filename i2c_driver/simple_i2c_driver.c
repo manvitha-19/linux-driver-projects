@@ -147,7 +147,7 @@ static void simple_i2c_remove(struct i2c_client *client)
 
 /* match device tree (optional) */
 static const struct of_device_id simple_i2c_of_match[] = {
-    { .compatible = "embetronicx,simple-i2c-device", },
+    { .compatible = "manvitha,simple-i2c-device", },
     { }
 };
 MODULE_DEVICE_TABLE(of, simple_i2c_of_match);
